@@ -1,0 +1,102 @@
+/* *************** reset ***********************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+body{
+    background: #c5d2e7;
+    /* background-image: url(./assets/b.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh; */
+}
+/* ************************NAV************************** */
+
+/* ********************App************************* */
+
+.app{
+    background: #fff;
+    width: 80%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1{
+    color: #001e4d;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #333;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color: #001e4d;
+}
+.btn{
+    color: #222;
+    background: #fff;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.btn:hover:not([disabled]){
+    background: #222;
+    color: #fff;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next-btn{
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 25px;
+    cursor: pointer;
+    display: none;
+}
+.action {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 6px -1px rgba(33,150,243,.4),0 2px 4px -2px rgba(33,150,243,.4);
+    color: rgb(255 255 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .75rem;
+    padding: 0.75rem 1.5rem;
+    background-color: rgb(56, 59, 59);
+    border-radius: 0.5rem;
+  }
+  a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+/* ************************* */
+
+.correct{
+    background: greenyellow;
+}
+.incorrect{
+    background: red;
+}
+
